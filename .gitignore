@@ -1,0 +1,5 @@
+node_modules/
+zenmux-catalog-cache/
+zenmux-videos/
+*.log
+.DS_Store

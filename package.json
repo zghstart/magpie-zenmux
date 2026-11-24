@@ -1,0 +1,53 @@
+{
+  "name": "magpie-zenmux",
+  "version": "1.0.0",
+  "description": "Unified ZenMux provider plugin for Magpie: 257 models across Chat, Responses, Anthropic Messages, Vertex Gemini, 36 image generators (Images, Imagen :predict, Gemini Image), 24 video generators (Videos, Veo LRO, Omni Interactions), TTS, ASR, Embeddings, Rerank, System One decisions, OAuth PKCE, Builder Plan & PAYG quotas.",
+  "license": "MIT",
+  "author": "zghstart",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "src/**/*.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zghstart/magpie-zenmux.git"
+  },
+  "homepage": "https://github.com/zghstart/magpie-zenmux#readme",
+  "bugs": {
+    "url": "https://github.com/zghstart/magpie-zenmux/issues"
+  },
+  "keywords": [
+    "magpie",
+    "magpie-plugin",
+    "opencode",
+    "zenmux",
+    "provider",
+    "multimodal",
+    "image-generation",
+    "video-generation",
+    "tts",
+    "asr",
+    "embeddings",
+    "rerank"
+  ],
+  "magpie": {
+    "kind": "provider",
+    "providers": [
+      {
+        "id": "zenmux",
+        "name": "ZenMux"
+      }
+    ]
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
