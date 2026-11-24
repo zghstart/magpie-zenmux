@@ -383,7 +383,6 @@ export async function ZenMuxPlugin(input = {}, pluginOptions = {}) {
     auth: {
       provider: PROVIDER_ID,
       rotating: true,
-      maxConcurrency: 2,
       options: [
         {
           key: "curatedOnly",
